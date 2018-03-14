@@ -7,4 +7,8 @@ The App does not support android-android bluetooth communication.
 To build the app in various platforms like ios and android:
 For ios: use "$cordova platform add ios" and then execute "$cordova build ios --save".
 For android: use "$ cordova platform add android" and then execute "$ cordvoa build android --save".
-Your ios app will be saved in the platforms -> builds -> ios folder in the directory of your project. Similarly, the android app will be save in platforms -> builds -> android folder within the directory.
+Your ios app will be saved in the platforms -> builds -> ios folder in the directory of your project. 
+Similarly, the android app will be save in platforms -> builds -> android folder within the directory.
+
+# Software :
+1. Go to the www folder.
