@@ -10,5 +10,14 @@ For android: use "$ cordova platform add android" and then execute "$ cordvoa bu
 Your ios app will be saved in the platforms -> builds -> ios folder in the directory of your project. 
 Similarly, the android app will be save in platforms -> builds -> android folder within the directory.
 
-# Software :
-1. Go to the www folder.
+# Software:
+1. Go to the www folder. Index.html file contains the actual webpage which has two buttons - start beeping and stop beeping. The start beeping button when clicked invokes a function in the javascript file to send a bluetooth message to the paired bluetooth device HC-05.
+2. The CSS folder contains the styling code for the html webpage.
+3. The js folder contains code written in javascript to use the phone's bluetooth adapter to send messages when appropriate button is clicked.
+
+# Hardware: 
+1. The hardware contains arduino pro mini for processing, 
+2. HC-05 bluetooth module for BT communication,
+3. a beeper and
+4. a battery to power up the hardware.
+
